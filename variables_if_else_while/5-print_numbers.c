@@ -13,6 +13,7 @@ int main(void)
     {
         printf(i + '0'\n); // Convert integer to character
     }
+    putchar(''\n);
 
     return (0);
 }
