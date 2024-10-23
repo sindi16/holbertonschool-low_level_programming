@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-    int i;
+    int digit;
 
-    for (i = 0; i <= 9; i++)
+    for (digit = 0; digit <= 9; digit++)
     {
-        putchar(i + '0'); // Convert integer to character
+        putchar(digit + '0'); // Convert integer to character
     }
 
     putchar('\n'); // Print a newline
