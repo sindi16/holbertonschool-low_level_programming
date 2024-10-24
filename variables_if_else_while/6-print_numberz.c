@@ -3,18 +3,18 @@
 /**
  * main - Entry point
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-    int digit;
+	int digit;
 
-    for (digit = 0; digit <= 9; digit++)
-    {
-        putchar(digit + '0'); // Convert integer to character
-    }
+	for (digit = 0; digit <= 9; digit++)
+	{
+		putchar(digit + '0');
+	}
 
-    putchar('\n'); // Print a newline
+	putchar('\n');
 
-    return (0);
+	return (0);
 }
