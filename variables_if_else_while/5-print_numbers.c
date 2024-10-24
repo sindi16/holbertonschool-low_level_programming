@@ -3,17 +3,18 @@
 /**
  * main - Entry point
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-    int i;
+	int n;
 
-    for (i = 0; i <= 9; i++);
-    {
-        printf(i + '0'\n); // Convert integer to character
-    }
-    putchar('\n');
+	for (n = 0; n <= 9; n++)
+	{
+		putchar(n + '0');
+	}
 
-    return (0);
+	putchar('\n');
+
+	return (0);
 }
