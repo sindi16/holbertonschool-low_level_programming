@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
- * prints all natural numbers from n to 98
- * @n its a number
- * Return: Always 98
- */
+* print_to_98 - prints all natural numbers from n to 98
+* @n: starting number
+*
+* Return: void
+*/
 void print_to_98(int n)
 {
 	int i;
