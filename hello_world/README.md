@@ -1,12 +1,31 @@
-Tasks
-0. Preprocessor
-Filename: 0-preprocessor
-Description: This script runs a C file through the preprocessor, which processes directives (such as #include and #define) before actual compilation. The output is saved into a specified result file.
+Sure! Here’s a concise summary of each task without examples:
 
-1. Compiler
-Filename: 1-compiler
-Description: This script compiles a C file but does not perform linking. It generates an object file that can be linked later. This is useful for debugging or modular programming.
+### Tasks Overview
 
-2. Assembler
-Filename: 2-assembler
-Description: This script generates the assembly code from a C code file. The resulting assembly code is saved in an output file, allowing for low-level inspection of the compiled code.
+0. **Preprocessor**  
+   **Filename:** `0-preprocessor`  
+   **Description:** Runs a C file through the preprocessor and saves the output.
+
+1. **Compiler**  
+   **Filename:** `1-compiler`  
+   **Description:** Compiles a C file into an object file without linking.
+
+2. **Assembler**  
+   **Filename:** `2-assembler`  
+   **Description:** Generates assembly code from a C file.
+
+3. **Name**  
+   **Filename:** `3-name`  
+   **Description:** Compiles a C file and creates an executable named `cisfun`.
+
+4. **Hello, puts**  
+   **Filename:** `4-puts.c`  
+   **Description:** A C program that prints a specific string using `puts()`.
+
+5. **Hello, printf**  
+   **Filename:** `5-printf.c`  
+   **Description:** A C program that prints a specific string using `printf()`.
+
+6. **Size is not grandeur, and territory does not make a nation**  
+   **Filename:** `6-size.c`  
+   **Description:** A C program that prints a specific string with proper grammar.
