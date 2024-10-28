@@ -1,6 +1,5 @@
-Sure! Here’s a concise summary of each task without examples:
 
-### Tasks Overview
+### Tasks 
 
 0. **Preprocessor**  
    **Filename:** `0-preprocessor`  
