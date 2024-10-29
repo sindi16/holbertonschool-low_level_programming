@@ -1,19 +1,23 @@
-#include "main.h"
+#include"main.h"
 
 /**
-* print_most_numbers - prints the numbers.
-*/
-
+ * print_most_numbers -entry point,prints numbers
+ */
 void print_most_numbers(void)
-{	
-	int n;
+{
+	int a;
 
-	for (n = 0; n <= 9; n++)
+	for (a = 0; a <= 9; a++)
 	{
-		if(n != 2 && n != 4)
+		if ((a != 2 && a != 4))
 		{
-			_putchar('0' + n);
+			_putchar(a + '0');
+
 		}
+
+
 	}
+
 	_putchar('\n');
+
 }
