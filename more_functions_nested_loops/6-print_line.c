@@ -1,25 +1,23 @@
-#include "main.h"
+#include"main.h"
+
 /**
- * print_line - draws a straight line
- * main.h header file
- * @n number of times
+ * print_line -entry point,draws a straight line
+ * @n: -hold value for input
  */
 
 void print_line(int n)
 {
-	int i;
-
-	if (n <= 0)
+	if (n > 0)
 	{
+		while (n > 0)
+		{
+			_putchar('_');
+			n--;
+		}
 		_putchar('\n');
 	}
 	else
 	{
-		for (i = 0; i < n; i++)
-		{
-			_putchar('_');
-		}
 		_putchar('\n');
 	}
-
 }
