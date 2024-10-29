@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
-* _isupper - function to check ascii
+*  _isdigit - check if input is a digit
 *@c: input value
-* Return: 0 or 1
+* Return: 1 or 0
 */
 
 int _isdigit(int c)
