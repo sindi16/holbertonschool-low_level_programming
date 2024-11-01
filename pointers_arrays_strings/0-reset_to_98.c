@@ -1,11 +1,11 @@
-#include"main.h"
-
+#include "main.h"
 /**
- * reset_to_98 -entry point,updates value
- * @n: -points to memory address
+ * reset_to_98 - dasdas
+ * @n: is a parameter
+ *
  */
 
-	void reset_to_98(int *n)
+void reset_to_98(int *n)
 {
-	 *n = 98;
+	*n = 98;
 }
