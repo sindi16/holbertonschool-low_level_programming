@@ -16,7 +16,7 @@ int _sqrt_primaryf(int n, int r)
 	{
 		return (-1);
 	}
-	return _sqrt_primaryf(n, r + 1);
+	return (_sqrt_primaryf(n, r + 1));
 }
 /*
 * _sqrt_recursion - calling function
