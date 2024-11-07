@@ -5,7 +5,7 @@
 * @s: a string
 * Return length.
 */
-int _strlen_recursion(char *s)
+int _strlen_recursion(char *s) // recursice function for a string
 {
 	if (*s == '\0')
 		return (0);
