@@ -19,7 +19,7 @@ int prime_rec(int n, int i)
 	{
 		return (1);
 	}
-	return (prime_rec(n , i + 1));
+	return (prime_rec(n ,i + 1));
 }
 /**
 * is_prime_number - function to tests for prime numbers.
