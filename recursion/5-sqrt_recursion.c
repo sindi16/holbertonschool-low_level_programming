@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* sqrt_primaryf - primary recursive function
+* _sqrt_primaryf - primary recursive function
 * @n: number to check
 * @r: the root number
 * Return: r
