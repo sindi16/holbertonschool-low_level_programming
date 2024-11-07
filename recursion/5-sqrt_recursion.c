@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
 * sqrt_primaryf - primary recursive function
 * @n: number to check
 * @r: the root number
@@ -18,11 +18,13 @@ int _sqrt_primaryf(int n, int r)
 	}
 	return (_sqrt_primaryf(n, r + 1));
 }
-/*
+
+/**
 * _sqrt_recursion - calling function
 * @n: number to check
 * Return: r
 */
+
 int _sqrt_recursion(int n)
 {
 	return (_sqrt_primaryf(n, 0));
