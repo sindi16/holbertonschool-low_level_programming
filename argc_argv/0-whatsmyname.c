@@ -1,16 +1,17 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
-* main - entry point that prints its name.
-* @argc: holds value for output
-* @argv: holds value fpr output
-* Return: 0
-*/
+ * main -entry point,program that prints its name
+ * @argc: -holds value for output
+ * @argv: -holds value for output
+ * Return: 0
+ */
+
 int main(int argc, char *argv[])
 {
-    (void) argc;
+	(void) argc;
 
-    printf("%s\n", argv[0]);
+	printf("%s\n", argv[0]);
 
-    return (0);
+	return (0);
 }
