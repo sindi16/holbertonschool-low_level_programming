@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 void myFunction(int x, int y)
-{
-	int sum = x + y;
-	printf("the sum of %d + %d is: %d\n", x, y, sum);
+{	int sum = x + y;
+	printf("the sum is: %d\n", sum);
 }
 int main()
 {
