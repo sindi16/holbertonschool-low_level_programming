@@ -2,8 +2,15 @@
 #include <stddef.h>
 #include <stdlib.h>
 
- char *_strdup(char *str)
- {
+/**
+* *_strdup - unction that returns a pointer to a newly allocated space
+* @str: a string
+* Return: copy
+*/
+
+char *_strdup(char *str)
+
+{
 	int size;
 	int i;
 	char* copy;
@@ -27,6 +34,4 @@
 	
 	return (copy);
 
- }
-
-
+}
