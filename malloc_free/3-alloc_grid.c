@@ -37,6 +37,3 @@ int **alloc_grid(int width, int height)
 
 	return (grid);
 }
-
-//grid is a pointer to an array of pointers. 
-//each pointer in this array will eventually point to a row in our grid (or "room" of chairs).
