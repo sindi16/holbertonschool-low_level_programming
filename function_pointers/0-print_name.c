@@ -1,5 +1,5 @@
-#include"function_pointers.h"
-#include<stdio.h>
+#include "function_pointers.h"
+#include <stdio.h>
 
 /**
  * f -entry point,creates string
