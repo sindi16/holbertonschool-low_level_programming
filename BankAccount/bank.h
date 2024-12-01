@@ -14,4 +14,4 @@ void withdraw(BankClient clients[], int size, int accountNumber, float amount);
 
 
 
-#endif BANK_H 
+#endif
