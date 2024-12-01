@@ -46,6 +46,10 @@ void withdraw(struct BankClient clients[i], int size, int accountNumber, float a
 				client[i]balance -= amount;
 				printf("withdrew is %.2f, New balance is: %.2f\n", amount, clients[i].balance);
 			}
+			else
+			{
+				printf("Insufficent amount")
+			}
 		}
 	}
 	else
