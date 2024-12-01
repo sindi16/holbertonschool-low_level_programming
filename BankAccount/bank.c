@@ -37,5 +37,19 @@ void deposit(BankClient clients[], int size, int accountNumber, float amount)
 }
 void withdraw(struct BankClient clients[i], int size, int accountNumber, float amount)
 {
-	
+	for (i = 0; i < size; i++)
+	{
+		if (client[i].accountNumber == accountNumber)
+		{
+			if (client[i].balance >= amount)
+			{
+				client[i]balance -= amount;
+				printf("withdrew is %.2f, New balance is: %.2f\n", amount, clients[i].balance);
+			}
+		}
+	}
+	else
+	{
+		printf("Account doesn't exist");
+	}
 }
