@@ -13,7 +13,7 @@ int main()
 	int choice, accountNumber;
 	float amount;
 	
-	for (;;)
+	while (1);
 	{
 		printf("\nMENU:\n");
 		printf("1. View balance\n");
@@ -28,7 +28,15 @@ int main()
 	switch (choice)
 	{
 		case 1:
-		printf("E")
+		printf("Enter your account number: ");
+		scanf("%d",&accountNumber);
+		viewBalance(clients, 5, accountNumber);
+		break;
+
+		case 2:
+		printf("Enter your account number:");
+		scanf("%d", &accountNumber);
+		printf("")
 	}
 	
 	
