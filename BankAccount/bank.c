@@ -22,6 +22,11 @@ void viewBalance(BankClient clients[], int size, int accountNumber)
 void deposit(BankClient clients[], int size, int accountNumber, float amount)
 {
 	int i;
+	if (amount < 0) {
+        printf("Error: Deposit amount cannot be negative.\n");
+        return; // Exit the function if the amount is negative
+    }
+	
 	for (i = 0; i < size; i++)
 	{
 		if (clients[i].accountNumber == accountNumber)
